@@ -15,7 +15,7 @@ function Navbar(navbar) {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
-                <Toolbar variant="dense">
+                <Toolbar variant="dense" >
                     <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
                         <MenuIcon />
                     </IconButton>
