@@ -3,33 +3,22 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import { NavigateBeforeRounded } from '@material-ui/icons';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Websites from "./Websites"
+import IconLink from "./IconLink"
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-
-function Navbar(navbar) {
+export default function ButtonAppBar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
-                <Toolbar variant="dense" >
-                    <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" color="inherit" component="div">
-                        {navbar.title}
+                <Toolbar>
+                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} align="left">
+                        Eric Lin
                     </Typography>
-                    <Websites link="https://www.youtube.com" title="About" />
-                    <span className="right">
-                        <Websites link="https://www.linkedin.com/in/eric-lin-4738b9174/" icon=<LinkedInIcon /> />
-                        <Websites link="https://github.com/ericlin11" icon=<GitHubIcon /> />
-                    </span>
+                    <IconLink link="https://www.linkedin.com/in/eric-lin-4738b9174/" icon=<LinkedInIcon /> />
+                    <IconLink link="https://github.com/ericlin11" icon=<GitHubIcon /> />
                 </Toolbar>
             </AppBar>
         </Box>
     );
 }
-export default Navbar;
