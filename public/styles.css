@@ -1,16 +1,23 @@
+.test {
+}
+
 body {
     margin: 0;
     text-align: center;
-    /* background-color: #000614;
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+    background-color: #1f2833;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.app{
+  height: 100vh;
 }
 
 .website-icon {
   padding-top: 5px;
   float:right;
   margin-left: 1.5%;
-  color:white;
+  color:#C5C6C7;
   text-decoration: none;
 }
 
@@ -24,20 +31,13 @@ span .right{
 }
 
 .dictionary div{
-  /* height: 23em;
-  width: 18em; */
-  background-color: #32aad6;
-  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
-
 }
 
 .dictionary > .term {
   text-align: center;
   max-width: 20rem;
   padding: 2rem;
-  border-radius: 3px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  border-radius: 25px;
   transition: all 100ms ease-in-out;
 }
 
@@ -46,7 +46,7 @@ span .right{
 }
 
 dt a{
-  color: #1976d2;;
+  color: #66FCF1;
   line-height: 1;
   text-decoration: none;
   font-size: 125%;
@@ -55,32 +55,44 @@ dt a{
 dd {
   font-size: 125%;
   margin-left: 0;
-  color: #303133;
-}
-
-footer {
-  padding-top: 5em;
-  color:black;
-  text-align: center;
+  color: #C5C6C7;
 }
 
 .dictionary img {
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
-  width: 1000px;
+  width: 900px;
   height: 434px;
+  border-radius: 25px;
 }
 
 
 .slick-prev:before, .slick-next:before { 
-  color:#1976d2 !important;
+  color:#C5C6C7 !important;
   font-size: 50px !important;
 }
 
 .slick-prev:before{
   margin-left: -30px;
 }
-.content {
+
+.top-container {
   margin: auto;
   padding: 20px;
   width: 90%;
+}
+
+.top-container h1{
+  font-size: 300%;
+  color: #45A29E;
+}
+
+
+footer {
+  height: calc(100vh - 95vh);
+  font-size: 80%;
+  padding-top: 5%;
+  color:#C5C6C7;
+  text-align: center;
 }
