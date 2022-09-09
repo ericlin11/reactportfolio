@@ -8,7 +8,7 @@ const MyWebsites = [
         title: "Keeper App",
         link: "https://codesandbox.io/s/using-pre-built-react-components-forked-nn5qo",
         summary: "My first react project. Allows user to take notes, add a title and content to the note. User can delete individual note when they are done with it.",
-        src: "./images/KeeperApp.JPG"
+        src: "./images/KeeperApp.jpg"
     },
     {
         id: 2,
