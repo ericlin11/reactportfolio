@@ -23,7 +23,9 @@ function Card(props) {
                 <dd>{props.summary}</dd>
             </div>
             <div>
-                <img src={props.src} />
+                {/* <img src={props.src} /> */}
+                <img src={require(`../images/KeeperApp.jpg`).default} />
+                {/* <img src={require(`${props.src}`).default} /> */}
             </div>
         </div >
     )
