@@ -47,10 +47,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-=======
     "@babel/core": "^7.19.3",
->>>>>>> 22c6658df158b8eeefcf9e88bbc6e616bde02881
     "gh-pages": "^4.0.0"
   }
 }
