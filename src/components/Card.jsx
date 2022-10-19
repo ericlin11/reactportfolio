@@ -1,17 +1,8 @@
 import React from "react"
 import TabIcon from '@mui/icons-material/Tab';
 
-
 function Card(props) {
     return (
-        // <div className="card" id={props.id}>
-        //     <div className="summary"></div>
-        //         <dt>
-
-        //         </dt>
-
-        //     <div className="picture"></div>
-        // </div>
         <div className="dictionary" id={props.id}>
             <div className="term">
                 <dt>
@@ -23,11 +14,11 @@ function Card(props) {
                 <dd>{props.summary}</dd>
             </div>
             <div>
-                {/* <img src={props.src} /> */}
-                <img src={require(`../images/KeeperApp.jpg`).default} />
-                {/* <img src={require(`${props.src}`).default} /> */}
+                <img src={props.image} alt={props.alt} />
+                {/* <img src={require(props.image).default} /> */}
+                {/* <img src={require(`../assets/images/KeeperApp.jpg`).default} /> */}
             </div>
-        </div >
+        </div>
     )
 }
 

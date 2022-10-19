@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.e78b4aaf.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.7ffb222b.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.7ffb222b.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.fc4b515b.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.fc4b515b.js.map",
+    "static/css/2.810cd682.chunk.css": "/reactportfolio/static/css/2.810cd682.chunk.css",
+    "static/js/2.25692dd0.chunk.js": "/reactportfolio/static/js/2.25692dd0.chunk.js",
+    "static/js/2.25692dd0.chunk.js.map": "/reactportfolio/static/js/2.25692dd0.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "static/css/2.810cd682.chunk.css.map": "/reactportfolio/static/css/2.810cd682.chunk.css.map",
+    "static/css/main.e78b4aaf.chunk.css.map": "/reactportfolio/static/css/main.e78b4aaf.chunk.css.map",
+    "static/js/2.25692dd0.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.25692dd0.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/reactportfolio/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc4b515b.js",
+    "static/css/2.810cd682.chunk.css",
+    "static/js/2.25692dd0.chunk.js",
+    "static/css/main.e78b4aaf.chunk.css",
+    "static/js/main.7ffb222b.chunk.js"
+  ]
+}
