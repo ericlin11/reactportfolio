@@ -13,7 +13,7 @@ function createCard(card) {
             title={card.title}
             link={card.link}
             summary={card.summary}
-            src={card.src}
+            image={card.image}
         />
     )
 }
