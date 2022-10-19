@@ -47,7 +47,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/core": "^7.19.3",
+=======
+>>>>>>> origin/master
     "gh-pages": "^4.0.0"
   }
 }
