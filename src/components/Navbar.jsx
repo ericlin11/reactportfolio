@@ -10,7 +10,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function ButtonAppBar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" style={{ background: '#1f2833' }}>
+            <AppBar style={{
+                background: '#1f2833', position: 'fixed', top: '0', overflow: 'hidden',
+                display: 'flex', justifyContent: 'space-between',
+            }}>
                 <Toolbar>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} align="left" style={{ color: '#C5C6C7' }}>
                         Eric Lin
